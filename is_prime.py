@@ -8,7 +8,7 @@ def is_prime(number):
         print (count)
         if number % count == 0:
             print("소수가 아닙니다.")
-            break #명제가 참이아니어도 만나면 강제로
+            break
         count = count+1
 
 is_prime(25)
